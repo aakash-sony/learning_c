@@ -4,7 +4,7 @@ int main()
 {
     int hour;
 
-    printf("Enter the hour(24-hour formet): ");
+    printf("Enter the hour(24-hour format): ");
     scanf("%d", &hour);
 
     if (hour >= 4 && hour <= 12)
