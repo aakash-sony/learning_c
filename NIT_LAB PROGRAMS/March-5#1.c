@@ -37,10 +37,15 @@ start:
                 change = amt - ttl_Bill;
                 printf("Change=%d", change);
 
+
+                change = amt - ttl_Bill;
+                printf("Change=%d", change);
+
            
                 
                      change = amt - ttl_Bill;
                      printf("Change=%d", change);
+
 
             }
             else

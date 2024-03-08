@@ -8,12 +8,14 @@ int main()
     scanf("%d",&rupees);
 
 
+
     if(rupees>=1000)
     {
          printf("1000 Notes=%d\n",rupees/1000);
          rupees=rupees-1000*(rupees/1000);
     
     }
+
 
     if(rupees>=500)
     {
