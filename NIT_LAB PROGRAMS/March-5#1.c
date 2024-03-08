@@ -33,8 +33,20 @@ start:
                 printf("\nEnter your payment amount: ");
                 scanf("%d", &amt);
 
+
                 change = amt - ttl_Bill;
                 printf("Change=%d", change);
+
+
+                change = amt - ttl_Bill;
+                printf("Change=%d", change);
+
+           
+                
+                     change = amt - ttl_Bill;
+                     printf("Change=%d", change);
+
+
             }
             else
             {
