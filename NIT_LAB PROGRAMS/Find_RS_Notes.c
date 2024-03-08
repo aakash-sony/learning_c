@@ -6,7 +6,15 @@ int main()
 
     printf("Enter the ruppes: ");
     scanf("%d",&rupees);
+
+
+    if(rupees>=1000)
+    {
+         printf("1000 Notes=%d\n",rupees/1000);
+         rupees=rupees-1000*(rupees/1000);
     
+    }
+
     if(rupees>=500)
     {
         printf("500 Notes=%d\n",rupees/500);
