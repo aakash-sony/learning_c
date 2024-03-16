@@ -16,5 +16,9 @@ int main()
 
     (c == '*') && printf("%d", a * b);
     (c == '/') && printf("%d", a / b);
-  return 0;
+
+
+    return 0;
+
+
 }
