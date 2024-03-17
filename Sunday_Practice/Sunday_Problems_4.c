@@ -57,6 +57,6 @@ void checkingpalindromeNumber(int num)
         printf("Given Number %d is Palindrome\n", temp);
     else
     {
-        ("Given Number %d is not Palindrome\n", temp);
+        printf("Given Number %d is not Palindrome\n", temp);
     }
 }
