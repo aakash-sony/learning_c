@@ -3,7 +3,6 @@
 
 int main()
 {
-
     int i,j,rows;
 
    printf("Enter the number of rows: ");
@@ -22,6 +21,7 @@ int main()
                 printf("*");
             }
         }
+
 
     }
     return 0;
