@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i,j,rows;
+    int i,j,rows,space;
     printf("Enter the number of rows: ");
     scanf("%d",&rows);
 
@@ -20,7 +20,15 @@ int main()
                 printf("*");
             }
         }
-        printf(" \n");
+        // for(space=1;space<=(rows-1);space++)
+        // {
+        //      printf(" ");
+        // }
+        // for(j=1;j<=i;j++)
+        // {
+        //     printf(" *");
+        // }
+        printf("\n");
     }
     return 0;
 }

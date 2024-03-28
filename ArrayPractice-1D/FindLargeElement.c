@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     largestElement=arr[0];
-    for(i=1;i<size;i++)
+    for(i=0;i<size;i++)
     {
         if(largestElement<arr[i])
         {
