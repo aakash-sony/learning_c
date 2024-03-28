@@ -2,17 +2,15 @@
 
 int main()
 {
-    int i,j,n;
+    int n;
     printf("Enter a number: ");
     scanf("%d",&n);
-
-    for(i=n;i>=1;i--)
+    for(int i=1;i<=n;i++)
     {
-        for(j=1;j<=i;j++)
+        if(i%2==0)
         {
-            printf("%c ",64+j);
+            printf("%d ",i);
         }
-        printf("\n");
     }
     return 0;
 }
