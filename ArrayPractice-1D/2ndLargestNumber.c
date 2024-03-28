@@ -1,31 +1,48 @@
-#include<stdio.h>
+#include <stdio.h>
 
+void initializeArray(int arr[], int n);
+void printingArray(int arr[], int n);
+void secondLargestElement(int arr[], int n);
 int main()
 {
-    int n,i,max,sMax;
-    int arr[100];
+    int arr[20], n;
     printf("How many elements do you want to enter: ");
-    scanf("%d",&n);
-    printf("Enter the total %d elements: ",n);
-    for(i=0;i<n;i++)
-    {
-        scanf("%d",&arr[i]);
-    }
-    printf("Entered elements are: ");
-    for(i=0;i<n;i++)
-    {
-        printf("%d ",arr[i]);
-    }
-    max=arr[0];
-    for(i=0;i<n;i++)
-    {
-        if(max<arr[i])
-        {
-            // sMax=max;
-            max=arr[i];
-        }
-        printf("\nMax=%d",max);
-    }
-
+    scanf("%d", &n);
+    initializeArray(arr, n);
+    printingArray(arr, n);
+    secondLargestElement(arr,n);
     return 0;
+}
+void initializeArray(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("Enter the %d element: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+}
+void printingArray(int arr[], int n)
+{
+    printf("\nThe Array is: ");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+}
+void secondLargestElement(int arr[], int n)
+{
+    int max = 0, smax = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] > max)
+        {
+            smax = max;
+            max = arr[i];
+        }
+        else if (arr[i] > smax && arr[i] != max)
+        {
+            smax = arr[i];
+        }
+    }
+    printf("\nSecond Largest Number: %d", smax);
 }
