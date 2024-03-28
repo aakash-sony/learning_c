@@ -8,8 +8,8 @@ int main()
 
     for(int i=0;i<n;i++)
     {
-       printf("%d ",a);
-       sum=a+b;
+        printf("%d ",a);
+        sum=a+b;
         a=b;
         b=sum;
     }
