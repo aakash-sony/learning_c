@@ -45,11 +45,12 @@ void secondLargestElement(int arr[], int n)
             smax = arr[i];
         }
     }
-    printf("\nSecond Largest Number: %d", smax)
+    printf("\nSecond Largest Number: %d", smax);
 
 
 }
 
     return 0;
+
 
 }
