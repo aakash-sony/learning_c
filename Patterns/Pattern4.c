@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
  int i,j,rows;
@@ -19,6 +18,7 @@ int main()
                 printf("*");
             }
         }
+
     }
     return 0;
 }
