@@ -53,6 +53,4 @@ void secondLargestElement(int arr[], int n)
 
     return 0;
 
-
-
 }
