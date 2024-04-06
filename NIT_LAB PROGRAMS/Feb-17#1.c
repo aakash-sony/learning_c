@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> acae7bb7667a83f5979d38f583a727b9ab9a8cef
 #include<stdio.h>
 
 int main()
@@ -18,4 +21,9 @@ int main()
     (c=='/')&&printf("%d",a/b);
 
     return 0;
+<<<<<<< HEAD
+    
+    
+=======
+>>>>>>> acae7bb7667a83f5979d38f583a727b9ab9a8cef
 }
