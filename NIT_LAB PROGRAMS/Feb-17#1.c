@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 int main()
@@ -17,6 +18,5 @@ int main()
     (c=='/')&&printf("%d",a/b);
 
     return 0;
-    
-    
+
 }
