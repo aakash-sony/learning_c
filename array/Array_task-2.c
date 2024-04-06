@@ -52,6 +52,9 @@ void insertElementAtPosition(int arr[], int size)
     scanf("%d", &position);
 
     for (i = size - 1; i >= position; i--)
-        arr[i] = arr[i - 1];
-    arr[position - 1] = insertedElement;
+    {
+           arr[i] = arr[i - 1];
+        arr[position - 1] = insertedElement;
+    }
+     
 }
