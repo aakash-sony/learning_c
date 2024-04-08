@@ -28,18 +28,25 @@ int main()
 
 void searchOfElement(int arr[], int size)
 {
-    int element,i;
+    int element, i;
+    int count = 0;
+
     printf("\nWhich Elements do you want to search? : ");
     scanf("%d", &element);
 
     for (i = 0; i < size; i++)
     {
-        if (arr[i]==element)
+
+        if (arr[i] == element)
         {
-            printf("Number is available ");
+            count++;
+            printf("%d found at index %d.", arr[i], i);
             break;
         }
     }
-    if (arr[i]!=element)
-    printf("Number is not available");
+    if (count == 0)
+        printf("Number is not available");
+
+  
+
 }

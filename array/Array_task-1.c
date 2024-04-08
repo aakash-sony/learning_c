@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-void insertElementsInArray(int arr[], int size);
+void insertElementsInArray(int arr[], int size); 
 void printElementsOArray(int arr[], int size);
 int addArrayElements(int arr[], int size);
 void printAverageOfElements(int arr[], int size);
@@ -57,8 +56,9 @@ int addArrayElements(int arr[], int size)
 
 void printAverageOfElements(int arr[], int size)
 {
-    float t = (float)(addArrayElements(arr, size));
-    printf("Average is : %.2f\n", t / size);
+    float t;
+    t =(addArrayElements(arr, size));
+    printf("Average is : %.2f\n", (float)t / size);
 }
 void multiplyArrayElements(int arr[], int size)
 {

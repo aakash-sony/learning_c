@@ -40,3 +40,5 @@ void countEvenOdd(int arr[], int size)
     }
     printf("The total Even elements in the array is %d\n", even);
     printf("The total Odd elements in the array is %d", odd);
+}
+
