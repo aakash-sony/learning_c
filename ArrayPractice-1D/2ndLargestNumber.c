@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void initializeArray(int arr[], int n);
@@ -46,5 +45,7 @@ void secondLargestElement(int arr[], int n)
         }
     }
     printf("\nSecond Largest Number: %d", smax);
+
 }return 0;
+
 }
