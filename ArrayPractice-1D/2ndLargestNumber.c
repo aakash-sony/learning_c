@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e234f23f0fbcf8ca0e4c816ed4a3dcfc34f065c2
 #include <stdio.h>
 
 void initializeArray(int arr[], int n);
@@ -45,4 +49,14 @@ void secondLargestElement(int arr[], int n)
         }
     }
     printf("\nSecond Largest Number: %d", smax);
+<<<<<<< HEAD
+=======
+
+
+
+}
+
+    return 0;
+
+>>>>>>> e234f23f0fbcf8ca0e4c816ed4a3dcfc34f065c2
 }
