@@ -16,6 +16,5 @@ int main()
     printf("a=%d\n",a);      //65540-32768==>32772
     a=-32770;
     printf("a=%d",a);      //32770;
-
     return 0;
 }
