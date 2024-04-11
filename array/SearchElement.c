@@ -28,8 +28,9 @@ int main()
 
 void searchOfElement(int arr[], int size)
 {
-    int element,i;
-    printf("\nWhich Elements do you want to search? : ");
+    int element, i;
+    int count =0; 
+  printf("\nWhich Elements do you want to search? : ");
     scanf("%d", &element);
 
     for (i = 0; i < size; i++)
@@ -42,4 +43,15 @@ void searchOfElement(int arr[], int size)
     }
     if (arr[i]!=element)
     printf("Number is not available");
+        if (arr[i] == element)
+        {
+            count++;
+            printf("%d found at index %d.", arr[i], i);
+            break;
+        }
+    }
+    if (count == 0)
+        printf("Number is not available");
+
+
 }
