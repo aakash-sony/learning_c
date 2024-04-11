@@ -52,4 +52,5 @@ void searchOfElement(int arr[], int size)
     }
     if (count == 0)
         printf("Number is not available");
+
 }
