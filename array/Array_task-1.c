@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void insertElementsInArray(int arr[], int size); 
 void printElementsOArray(int arr[], int size);
 int addArrayElements(int arr[], int size);
