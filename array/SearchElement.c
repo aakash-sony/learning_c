@@ -30,13 +30,11 @@ void searchOfElement(int arr[], int size)
 {
     int element, i;
     int count = 0;
-
     printf("\nWhich Elements do you want to search? : ");
     scanf("%d", &element);
 
     for (i = 0; i < size; i++)
     {
-
         if (arr[i] == element)
         {
             count++;
@@ -46,7 +44,5 @@ void searchOfElement(int arr[], int size)
     }
     if (count == 0)
         printf("Number is not available");
-
-  
 
 }

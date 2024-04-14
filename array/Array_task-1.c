@@ -30,7 +30,7 @@ void insertElementsInArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
-        printf("Enter the %dth Element : ", (i + 1));
+        printf("Enter the %d Element : ", (i + 1));
         scanf("%d", &arr[i]);
     }
 }
