@@ -12,7 +12,7 @@ int main()
 
     return 0;
 }
-                            // a<<5====a*2*2*2*2*2
+
 void program1()
 {
     int a = 10;
